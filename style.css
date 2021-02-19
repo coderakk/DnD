@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.com {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 9px;
+}
+
+.dropzone {
+  border: 2px solid black;
+  min-width: 800px;
+  min-height: 200px;
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 150px; */
+}
+
+.c1 {
+  background-color: black;
+}
+.c2 {
+  background-color: grey;
+}
+.c3 {
+  background-color: green;
+}
+.c4 {
+  background-color: yellow;
+}
+
+h1 {
+  position: absolute;
+  left: 25%;
+}
